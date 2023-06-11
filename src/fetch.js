@@ -12,3 +12,25 @@ export async function getFilms(type) {
     }
 }
 
+// export async function getFilm(id) {
+//     try {
+//         const response = await axios.get(`${BASE_URL}/films/${id}`);
+//         return response;
+//         } catch (err) {
+//             console.log(err);
+//         }     
+//     }
+            
+
+
+export async function getFilmId(type, id) {
+    try {
+        const response = await axios.get(`${BASE_URL}/${type}/${id}`);
+        return response;
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+
+
