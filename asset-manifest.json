@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/assessment-final-react/static/css/main.a735341e.css",
+    "main.js": "/assessment-final-react/static/js/main.6096afd3.js",
+    "index.html": "/assessment-final-react/index.html",
+    "main.a735341e.css.map": "/assessment-final-react/static/css/main.a735341e.css.map",
+    "main.6096afd3.js.map": "/assessment-final-react/static/js/main.6096afd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a735341e.css",
+    "static/js/main.6096afd3.js"
+  ]
+}
