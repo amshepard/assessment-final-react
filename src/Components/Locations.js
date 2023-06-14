@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import { useState, useEffect } from "react"
-import { gettingLocation } from "../fetch.js"
+import { getLocation } from "../fetch.js"
 
 export default function Locations() {
     const [show, setShow] = useState(false)
@@ -27,7 +27,7 @@ export default function Locations() {
     }
 
     async function settingLocations() {
-        const newLoc = await gettingLocation()
+        const newLoc = await getLocation()
         setLocations(newLoc)
         if (id === "name") {
             sortName()

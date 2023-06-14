@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import { useState, useEffect } from "react"
-import { gettingPeople } from "../fetch.js"
+import { getPeople } from "../fetch.js"
 import Error from "./Error.js"
 
 export default function People() {
@@ -11,7 +11,7 @@ export default function People() {
     const [loadingError, setLoadingError] = useState(false)
 
     async function settingPeople() {
-        const allPeople = await gettingPeople()
+        const allPeople = await getPeople()
         setPeople(allPeople)
         console.log(people)
     }

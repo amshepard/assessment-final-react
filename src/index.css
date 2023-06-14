@@ -1,4 +1,4 @@
-nav {
+nav ul {
   display: flex;
   justify-content: space-around;
   background: #517e94;
@@ -39,27 +39,28 @@ li {
   background: ghostwhite;
   padding: 1em;
   min-height: 80vh;
+  text-align: center;
 }
 
-.locations > ul {
+.locations>ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 0;
 }
 
-.locations ul > li {
+.locations ul>li {
   background: lemonchiffon;
   width: 26%;
   padding: 2em;
 }
 
-.locations ul > li > ul {
+.locations ul>li>ul {
   margin-left: 0;
   list-style: none;
 }
 
-.locations ul > li > ul li {
+.locations ul>li>ul li {
   background: ghostwhite;
   display: flex;
   flex-wrap: no-wrap;
@@ -67,11 +68,12 @@ li {
   justify-content: center;
 }
 
-.locations ul > li > ul li span {
+.locations ul>li>ul li span {
   text-align: center;
   display: inline-block;
   width: 100%;
 }
+
 .details li {
   list-style: none;
   margin: 0.5em 0;
@@ -86,6 +88,7 @@ li {
   background: lemonchiffon;
   height: 80vh;
   padding-top: 1em;
+  text-align: center;
 }
 
 .people aside {
@@ -121,4 +124,8 @@ ul li::marker {
   font-size: 150%;
   color: #517e94;
   opacity: 0;
+}
+
+.home {
+  text-align: center;
 }
